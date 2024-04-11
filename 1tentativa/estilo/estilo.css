@@ -1,0 +1,38 @@
+html {
+  font-size: 10px; /* px significa "pixels": o tamanho da fonte base é agora de 10 pixels */
+  font-family: "Embed code", sans-serif; /* este deve ser o nome da fonte que você obteve no Google Fonts */
+  background-color: #3e5675; /*Aqui eu estou mudando o fundo da página toda*/
+}
+h1 {
+  font-size: 50px;
+  text-align: center; /* Para colocar o texto alinhado no centro da página */
+  margin: 0;
+  padding: 20px 0;
+  color: #1b9f00;
+  text-shadow: 3px 3px 1px rgb(169, 172, 10);
+
+  
+}
+
+p,
+li, /* Essa virgula entre os elementos html selecionados, significa que é para o css alterar todos esses elementos com as mesmas propriedadades colocadas na caixa*/
+h2,
+h3,
+h4 {
+  font-size: 16px; /* Propriedades colocadas para os elementos acima*/
+  line-height: 2; /* espaço entre linhas */
+  letter-spacing: 1px; /* espaço entre letras*/
+  color: #ffffff;
+}
+
+body {
+  width: 600px; /*Isso força o corpo a ter 600 pixels de largura*/
+  margin: 0 auto; /*Quando você define dois valores em uma propriedade como margin ou padding, o primeiro valor afeta a parte superior do elemento e a parte inferior (tornando-os 0 nesse caso), e no segundo valor os lados esquerdo e direito (aqui, auto é um valor especial que divide o espaço horizontal uniformemente entre esquerda e direita).*/
+  background-color: #6ca1e7; /* Colocando a cor do Fundo (Nesse caso, somente do corpo) como Azul*/
+  padding: 0 20px 20px 20px; /*para criar um pouco de espaço em torno do nosso conteúdo, nesse caso eu não defini espaço em cima, mas criei em baixo, e dos lados*/
+  border: 5px solid black; /* A borda preta na pagina que separa o corpo do resto do html*/
+}
+img {
+  display: block; /*A imagem é tratada como linha, por isso, para editala e colocar margens e etc, é preciso transforma-lá em bloco. Futuramente irá aprender sobre bloco e linha*/
+  margin: 0 auto;
+}
